@@ -2,6 +2,7 @@ package com.example.praktikum3
 
 import android.app.Activity
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -37,4 +38,8 @@ fun ActivityPertama(modifier: Modifier) {
             stringResource(R.string.prodi),
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold
+        )
+        Text(
+            stringResource(R.string.univ),
+            fontSize = 22.sp
         )
